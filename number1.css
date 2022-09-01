@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    background-color:#ddd ;
+    width: 100%;
+    height: 90px;
+}
+.menu
+{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li
+{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.45 ease-in-out;
+}
+ul li a:hover
+{
+    color:aqua;
+}
+.creating-a-website
+{
+    padding-left: 100px;
+    align-items: center;
+    padding-top: 20px;
+
+}
+h1
+{
+    padding-top: 20px;
+    text-align: center;
+}
